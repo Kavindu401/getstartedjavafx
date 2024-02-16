@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<VBox alignment="TOP_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.signup.HelloController">
+
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 10 0 0 40;" >
+        <Label text="First Name:    " />
+        <TextField promptText="Enter your first name"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Last Name:    " />
+        <TextField promptText="Enter your last name"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Age:               " />
+        <TextField promptText="Enter your age"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Birthday:        " />
+        <TextField promptText="Enter your Birthday"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Gender:         " />
+        <TextField promptText="Enter your Gender"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Civil Status:   " />
+        <TextField promptText="Enter your Civil Status"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Country:        " />
+        <TextField promptText="Enter your Country"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Email:            " />
+        <TextField promptText="Enter your Email"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Mobile:         " />
+        <TextField promptText="Enter your Mobile"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Username:    " />
+        <TextField promptText="Enter your Username"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Password:     " />
+        <PasswordField promptText="Enter your Password"/>
+        <Button text="Submit"/>
+
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 0 40;" >
+        <Label text="Confirm Password:    " />
+        <PasswordField promptText="Enter your Confirm Password"/>
+        <Button text="Submit"/>
+        <Button text="Clear"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Button text="Confirm"/>
+    </HBox>
+</VBox>
